@@ -1,12 +1,8 @@
-import {useState,useEffect} from 'react'
+import {useState} from 'react'
 import '../style.scss'
 
 const DoiMakeForm = () => {
     const [totalMilk,setTotalMilk] = useState(0)
-    const [sugar,setSugar] = useState('')
-    const [caramel,setcaramel] = useState('')
-    const [curd,setcurd] = useState('')
-
     const ltrChangeHandler = (e)=>{
         setTotalMilk(e.target.value)
     }
