@@ -1,5 +1,6 @@
 import React from 'react'
 import DoiMake from './components/DoiMakeForm'
+import DoiMake from './components/DoiMakeForm'
 
 const App = () => {
   return (
